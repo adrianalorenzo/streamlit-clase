@@ -7,4 +7,5 @@ nombre = st.text_input("Ingresa tu nombre: ")
 
 if nombre:
     st.write(f"hola, {nombre}! ¡Bienvendio a streamlit!")
-    st.success(f"ENcantado, {nombre}")
+
+    st.success(f"Encantado, {nombre}")
